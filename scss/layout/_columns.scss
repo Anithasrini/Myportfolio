@@ -1,0 +1,65 @@
+.sidebar {
+  float: left;
+  max-width: 20%;
+}
+// .sidebar button {
+//   background-color: lightblue;
+//   margin-left: 20px;
+//   margin: 50px 0 10px 50px;
+//   border: 1px solid black;
+//
+//
+.sidebar {
+    li {
+      list-style: none;
+      color: black;
+      text-decoration: none;
+      margin-left: 10px;
+      margin-top: 30px;
+    }
+    ul {
+       float: left;
+       display: block;
+       text-decoration: underline;
+    }
+}
+.main {
+  float: right;
+  max-width: 80%;
+  height: auto;
+
+}
+// .about button {
+//   background-color: lightblue;
+//   margin: 50px 680px 20px -190px;
+//   border: 1px solid black;
+//   float: right;
+//
+//
+//
+.about p {
+  float: right;
+  margin-right: 10px;
+  margin-left: 60px;
+  top: 150px;
+  color: white;
+}
+//
+// .sidebar ul {
+//     float: left;
+//     display: block;
+//     text-decoration: underline;
+//   }
+
+  .images-list li, .images-list img {
+    max-width: 80%;
+    float: right;
+    display: inline;
+    border: 1px solid white;
+    margin: 10px;
+    list-style: none;
+    margin-right: 30px;
+    height: auto;
+
+
+  }

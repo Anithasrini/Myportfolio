@@ -1,0 +1,126 @@
+// * {
+//   box-sizing: border-box; }
+//
+// body {
+//   max-width: 100%;
+//   color: grey;
+//   margin: 0;
+//   font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; }
+//
+// h1 {
+//   font: 'Abolition Regular', Helvetica, Arial, sans-serif; }
+//
+// .nav-bar {
+//   height: 50px;
+//   width: 100%;
+//   background-color: darkgrey;
+//   margin-top: 0; }
+//
+// .nav-bar ul {
+//   list-style: none;
+//   width: 100%;
+//   text-decoration: none; }
+//
+// .nav-bar li {
+//   padding: 5px;
+//   padding-top: 20px;
+//   list-style: none;
+//   float: left;
+//   display: inline;
+//   margin-top: 0;
+//   margin-bottom: 10px;
+//   background-color: darkgrey;
+//   text-decoration: none;
+//   color: black;
+// }
+//
+// .nav-bar a:visited {
+//   color: lightblue; }
+// .nav-bar a:hover {
+//   color: rgba(255, 169, 73, 0.5); }
+// .nav-bar a:active {
+//   color: lightcoral;
+//  }
+//
+// .sidebar {
+//   float: left;
+//   max-width: 20%;
+// }
+//
+// .sidebar button {
+//   background-color: lightblue;
+//   margin-left: 20px;
+//   margin: 50px 0 10px 50px;
+//   border: 1px solid black;
+// }
+//
+// .sidebar li {
+//   list-style: none;
+//   color: black;
+//   text-decoration: none;
+//   margin-left: 10px;
+//   margin-top: 30px;
+// }
+//
+// .main {
+//   float: right;
+//   max-width: 80%;
+//   height: auto;
+// }
+//
+// .about button {
+//   background-color: lightblue;
+//   margin: 50px 680px 20px -190px;
+//   border: 1px solid black;
+//   float: right;
+// }
+//
+// .about p {
+//   float: right;
+//   margin-right: 10px;
+//   margin-left: 60px;
+//   top: 150px;
+//   color: white;
+//  }
+//
+// .sidebar ul {
+//   float: left;
+//   display: block;
+//   text-decoration: underline;
+// }
+//
+// .images-list li, .images-list img {
+//   max-width: 80%;
+//   float: right;
+//   display: inline;
+//   border: 1px solid white;
+//   margin: 10px;
+//   list-style: none;
+//   margin-right: 30px;
+//   height: auto;
+// }
+//
+// .container {
+//   max-width: 100%;
+//   background-color: darkgrey;
+// }
+//
+// .footer {
+//   clear: both;
+// }
+//
+// .footer p {
+//   text-align: center;
+//   margin-bottom: 15px;
+//   color: black;
+// }
+//
+// .heading h1 {
+//   font: Helvetica,Arial,sans-serif;
+//   font-size: 2.9rem;
+//   color: yellow;
+//   height: 70px;
+//   text-align: center;
+//   padding-top: 10px;
+//   background-color: lightgrey;
+// }
