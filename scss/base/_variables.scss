@@ -1,0 +1,28 @@
+// Descriptive color variables
+
+
+$white            : #fff;
+$black            : #000;
+$Beige          : #F5F5DC;
+$Acapulco         : #7CB0A1;
+$Botticelli       : #C7DDE5;
+$nav-bar         :  #85adad;
+$Arapawa          :#110C6C;
+// Functional color variable
+
+$color-text    : $black;
+$color-nav     : $nav-bar;
+$button-color  : $Botticelli;
+$color-base    :  $Beige;
+$color-header   : $Acapulco;
+$color-heading : $Arapawa;
+
+
+//Font-stack
+
+$stack-sans-serif : Helvetica, Arial, sans-serif;
+$stack-courier : Courier, $stack-sans-serif ;
+
+//media queries breakpoints
+// $brk-narrow  : '(max-width: 768px)';
+// $brk-narrow  : '(max-width: 1024px)';

@@ -1,0 +1,21 @@
+//floatleft
+
+%left {
+  float: left;
+}
+ %right {
+   float: right;
+ }
+%border {
+  border: 1px solid $color-text;
+ }
+// %border-img {
+//   border: 1px solid $color-text;
+// }
+%button {
+  background-color: $button-color;
+  padding: 2px;
+  font-size: .6em;
+  // @extend %border-img;
+font-family: fantasy;
+}

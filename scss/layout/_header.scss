@@ -1,9 +1,12 @@
 .heading h1 {
-  font: Helvetica,Arial,sans-serif;
-  font-size: 2.9rem;
-  color: yellow;
+  font-family: $stack-courier;
+  font-size: 2rem;
+  color: $color-heading;
   height: 70px;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 22px;
+  padding-bottom: 25px;
   background-color: lightgrey;
+  margin: 0;
+  // margin-top: 15px;
 }

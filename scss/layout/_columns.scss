@@ -1,65 +1,75 @@
 .sidebar {
-  float: left;
+  @extend %left;
   max-width: 20%;
+  height: 100%;
+  position: relative;
 }
-// .sidebar button {
-//   background-color: lightblue;
-//   margin-left: 20px;
-//   margin: 50px 0 10px 50px;
-//   border: 1px solid black;
-//
-//
+
 .sidebar {
     li {
       list-style: none;
-      color: black;
-      text-decoration: none;
-      margin-left: 10px;
-      margin-top: 30px;
+      color: $color-text;
+      text-decoration: underline;
+      margin-left: -12px;
+      margin-top: 8px;
+      // margin-bottom: 40px;
+      font-style: oblique;
     }
     ul {
-       float: left;
+       @extend %left;
        display: block;
        text-decoration: underline;
     }
 }
 .main {
-  float: right;
+  @extend %right;
   max-width: 80%;
-  height: auto;
+  height: 100%;
+  // position: relative;
 
 }
-// .about button {
-//   background-color: lightblue;
-//   margin: 50px 680px 20px -190px;
-//   border: 1px solid black;
-//   float: right;
-//
-//
-//
+
 .about p {
-  float: right;
+  @extend %right;
   margin-right: 10px;
-  margin-left: 60px;
-  top: 150px;
-  color: white;
+  margin-left: 80px;
+  margin-top: 80px;
+  color: $color-text;
+  font-style: oblique;
 }
-//
-// .sidebar ul {
-//     float: left;
-//     display: block;
-//     text-decoration: underline;
-//   }
-
+ .about::after {
+   content: "";
+  float: right;;
+ }
+ // .images-list li:nth-child(even) {
+ //  @extend %right;
+ //  margin-right: -105px;
+ //  margin-top: -153px;
+ //  padding-top: 15px;
+ //  margin-left: 0;
+ // }
   .images-list li, .images-list img {
-    max-width: 80%;
-    float: right;
-    display: inline;
-    border: 1px solid white;
-    margin: 10px;
+    max-width: 100%;
+    @extend %right;
+    @extend %border;
+    margin-top: 15px;
     list-style: none;
-    margin-right: 30px;
-    height: auto;
+    margin-left: -40px;
+    height: 50px;
+     margin-bottom: 220px;
+    // display: inline-block;
+     position: relative;
+    float: right;
+}
 
+.images-list img {
 
-  }
+  max-width: 100%;
+  margin-left: 25px;
+  margin-right: 35px;
+   height: auto;
+  //  margin-bottom: 20px;
+  // display: inline;
+}
+
+//media queries

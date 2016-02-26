@@ -1,15 +1,12 @@
+.sidebar button {
+  @extend %button;
+  margin-left: 15px;
+  margin: 25px 0 10px 15px;
+}
 
- button {
-    .sidebar{
-        background-color: lightblue;
-        margin-left: 20px;
-        margin: 50px 0 10px 40px;
-        border: 1px solid black;
-    }
-    .about {
-        background-color: lightblue;
-        margin: 50px 680px 20px -180px;
-        border: 1px solid black;
-        float: right;
-    }
+.about button {
+  @extend %right;
+  @extend %button;
+  position: absolute;
+  margin: 23px 310px 20px 110px;
 }
