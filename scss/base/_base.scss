@@ -8,9 +8,12 @@
 }
 
 body {
-  background-color: $color-base;
+  @include linear-gradient(to top, lightblue, lightyellow);
+  // background-color: darken($color-base, 7%);
+
   margin: 0;
-  font: .6em/ $stack-sans-serif;
+  font: .9em/ $stack-sans-serif;
+  max-width: 100%;
  }
 
 .nav-bar {
@@ -25,22 +28,23 @@ body {
       display: inline;
     }
     li {
-      max-width: 70%;
+      max-width: 100%;
       padding: 0;
       padding-top: 10px;
+      padding-left: 0;
       list-style: none;
       @extend %left;
       display: inline;
       background-color:$color-nav;
-      color: $color-text;
-      margin-left: 6px;
-      margin-right: 3px;
+      color: darken($color-text, 10%);
+      margin-left: 15px;
     }
     a {
       text-decoration: none;
       font-style: italic;
-      font-size: .8em;
-    }
+      // color: darken($color-text, 30%);
+      font-size: 1em;
+     }
 }
   .nav-bar a {
     &:visited {

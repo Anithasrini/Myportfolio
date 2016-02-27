@@ -1,7 +1,6 @@
 .sidebar {
+  @include text(20%, 100%);
   @extend %left;
-  max-width: 20%;
-  height: 100%;
   position: relative;
 }
 
@@ -11,8 +10,7 @@
       color: $color-text;
       text-decoration: underline;
       margin-left: -12px;
-      margin-top: 8px;
-      // margin-bottom: 40px;
+      margin-top: 18px;
       font-style: oblique;
     }
     ul {
@@ -22,11 +20,9 @@
     }
 }
 .main {
+  @include text(80%, 100%);
   @extend %right;
-  max-width: 80%;
-  height: 100%;
-  // position: relative;
-
+  position: relative;
 }
 
 .about p {
@@ -39,37 +35,45 @@
 }
  .about::after {
    content: "";
-  float: right;;
+  float: right;
  }
- // .images-list li:nth-child(even) {
- //  @extend %right;
- //  margin-right: -105px;
- //  margin-top: -153px;
- //  padding-top: 15px;
- //  margin-left: 0;
- // }
+
   .images-list li, .images-list img {
-    max-width: 100%;
+    @include text (80%, auto);
     @extend %right;
-    @extend %border;
-    margin-top: 15px;
     list-style: none;
-    margin-left: -40px;
-    height: 50px;
-     margin-bottom: 220px;
-    // display: inline-block;
-     position: relative;
+    margin-top: 10px;
+    margin-left: -50px;
+    margin-right: 20px;
+    padding-left: 20px;
+    position: relative;
     float: right;
+    overflow: none;
+    }
+    img {
+    @include text (80%, auto);
+    list-style: none;
+    display: inline;
+    box-shadow: 3px #777;
 }
 
-.images-list img {
-
-  max-width: 100%;
-  margin-left: 25px;
-  margin-right: 35px;
-   height: auto;
-  //  margin-bottom: 20px;
-  // display: inline;
-}
 
 //media queries
+@media only screen and (min-width: 450px) {
+  .images-list li:nth-child(9) {
+    display: none;
+    }
+
+
+}
+ @media #{$brk-narrow} {
+   .images-list li:nth-child(9) {
+     display: inline;
+     }
+   }
+@media #{$brk-wide} {
+  .main {
+    max-width: 80%;
+    max-height: 100%;
+  }
+}

@@ -10,3 +10,24 @@
   position: absolute;
   margin: 23px 310px 20px 110px;
 }
+
+.form  {
+  max-width: auto;
+  float: left;
+  margin-top: 50%;
+  margin-left: 25px;
+  font-size: 1em;
+  position: absolute;
+ @media #{$brk-wide} {
+  font-size: 1em;
+  }
+}
+  //media queries
+
+@media #{$brk-narrow} {
+  .form {
+  margin-top: 640px;
+  margin-left: 20px;
+
+ }
+}

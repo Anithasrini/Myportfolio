@@ -17,6 +17,7 @@ $color-base    :  $Beige;
 $color-header   : $Acapulco;
 $color-heading : $Arapawa;
 
+//margin
 
 //Font-stack
 
@@ -24,5 +25,9 @@ $stack-sans-serif : Helvetica, Arial, sans-serif;
 $stack-courier : Courier, $stack-sans-serif ;
 
 //media queries breakpoints
-// $brk-narrow  : '(max-width: 768px)';
-// $brk-narrow  : '(max-width: 1024px)';
+
+ $brk-narrow  : '(max-width: 768px)';
+ $brk-wide  : '(max-width: 1024px)';
+
+
+//icons

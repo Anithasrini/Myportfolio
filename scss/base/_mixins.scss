@@ -1,0 +1,4 @@
+@mixin text($m-width: null, $height: null) {
+  max-width: $m-width;
+  height: $height;
+}

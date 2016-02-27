@@ -1,0 +1,24 @@
+.fa-ul li, .fa-ul i {
+      @extend %icons;
+      color: black;
+      }
+      i {
+      margin-top: -2px;
+      margin-left: 5px;
+      }
+@media #{$brk-narrow} {
+    .fa-ul li, .fa-ul i {
+     float: right;
+      margin-right: 15px;
+      padding-left: 30px;
+    }
+  }
+      //media queries
+@media only screen and (max-width: 450px) {
+   .fa-ul li, .fa-ul i {
+     display: none;
+   }
+   i {
+  display: none;
+   }
+}

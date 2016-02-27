@@ -1,7 +1,21 @@
+
 .footer p {
   text-align: center;
-  margin-bottom: 15px;
+  margin: 0;
+  max-width: auto;
+  height: 20%;
+  padding-top: 330px;
   color: $color-text;
   clear: both;
-  font-size: .8em;
+  @media #{$brk-wide} {
+    font-size: 1em;
+    color: red;
+  }
  }
+
+@media #{$brk-narrow} {
+  .footer p {
+    padding-top: 180px;
+    color: red;
+  }
+}
