@@ -9,7 +9,7 @@
 
 body {
   @include linear-gradient(to left, #4DA0B0, #D39D38);
-  // background-color: darken($color-base, 7%);
+  background-color: darken($color-base, 7%);
 
   margin: 0;
   font: .9em/ $stack-sans-serif;
