@@ -8,7 +8,7 @@
 }
 
 body {
-  @include linear-gradient(to top, lightblue, lightyellow);
+  @include linear-gradient(to left, #4DA0B0, #D39D38);
   // background-color: darken($color-base, 7%);
 
   margin: 0;
@@ -42,7 +42,7 @@ body {
     a {
       text-decoration: none;
       font-style: italic;
-      // color: darken($color-text, 30%);
+      color: darken($color-text, 30%);
       font-size: 1em;
      }
 }
